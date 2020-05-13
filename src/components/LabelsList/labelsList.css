@@ -1,0 +1,60 @@
+.labels {
+  list-style: none;
+  padding-left: 30px;
+  margin-right: 20px;
+}
+
+.label__item {
+  position: relative;
+  height: 33px;
+  width: 200px;
+  padding-left: 10px;
+  line-height: 33px;
+  text-transform: lowercase;
+  border-radius: 0 16px 16px 0;
+}
+
+.label__link {
+  display: block;
+  padding-left: 10px;
+  font-family: "Roboto", sans-serif;
+  font-size: 0.88rem;
+  letter-spacing: 0.2px;
+  text-decoration: none;
+  border-radius: 0 16px 16px 0;
+}
+
+.label__link--active {
+  font-weight: 600;
+  color: #d93025;
+  background-color: #fce8e6;
+}
+
+.label__link--non-active {
+  color: #202124;
+}
+
+.label__link--not-active:hover {
+  background-color: #f1f3f4;
+}
+
+.label__link::first-letter {
+  text-transform: capitalize;
+}
+
+.label__messages {
+  position: absolute;
+  font-weight: 600;
+  color: #d93025;
+}
+
+.label__messages--not-active {
+  display: none;
+}
+
+.label__messages--active {
+  display: inline-block;
+  right: 10px;
+  top: 50%;
+  transform: translateY(-50%);
+}

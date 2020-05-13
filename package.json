@@ -1,16 +1,21 @@
 {
-  "name": "react_add-todo-form",
+  "name": "react_gmail",
   "homepage": ".",
   "version": "0.1.0",
   "private": true,
   "keywords": [],
-  "author": "Mate Academy",
+  "author": "AL",
   "license": "GPL-3.0",
   "dependencies": {
+    "classnames": "^2.2.6",
     "prop-types": "^15.7.2",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
-    "react-scripts": "3.4.1"
+    "react-google-login": "^5.1.12",
+    "react-loader-spinner": "^3.1.14",
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "3.4.1",
+    "utf8": "^3.0.0"
   },
   "devDependencies": {
     "@mate-academy/eslint-config-react": "*",
